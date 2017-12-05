@@ -93,4 +93,49 @@ button {
     background-color: #33b069;
     color: white; }
 
+.container {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 10% 0 0 10%; }
+
+.content {
+  padding-right: 10%; }
+
+.cards:first-child {
+  margin-top: 10vh; }
+
+.card {
+  margin-right: .5%; }
+
+.card:last-child {
+  margin-right: 0; }
+
+.logo-card {
+  min-width: 20vw;
+  margin-top: 5vh;
+  text-align: center;
+  padding: 12% 8%;
+  position: relative;
+  float: left; }
+
+.icon-card-div {
+  width: 70px;
+  height: 70px;
+  background-color: #0db14b;
+  border-radius: 50%;
+  position: absolute;
+  top: -2vh;
+  left: 42.5%; }
+
+.icon-card-div img {
+  width: 100%;
+  padding: 12%; }
+
+@media screen and (min-width: 1001px) {
+  .logo-card {
+    padding: 5% 2% 3% 2%; } }
+@media screen and (min-width: 600px) {
+  .logo-card {
+    padding: 10% 2% 3% 2%; } }
+
 /*# sourceMappingURL=main.css.map */
