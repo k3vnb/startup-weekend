@@ -12,61 +12,85 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="row">
-      <div class="col-12">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="light-type">Home</span> <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="light-type">Explore Events</span> <span class="sr-only">(current)</span></a>
-              <ul>
-                <li><a href="#">Near Me</a></li>
-                <li><a href="#">By Region/City</a></li>
-                <li><a href="#">By Edition/Theme</a></li>
-                <li><a href="#">By Map</a></li>
-              </ul>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><span class="light-type">More</span> <span class="sr-only">(current)</span></a>
-              <ul>
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">Attendees</a></li>
-                <li><a href="#">Organizers</a></li>
-                <li><a href="#">Apply to Organize</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#">Mentors</a></li>
-              </ul>
-            </li>
-          </ul>
-          <!-- find an event near -->
-          <div class="nav-event">
-            <form>
-              <label class="" for="inlineFormInput">Find an event near</label>
-              <div class="input-group">
-                <input type="search" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Find an Event">
-                <div class="input-group-addon">
-                  <button class="btn my-2 my-sm-0" type="submit">Search</button>
+      <div class="row">
+        <div class="col-12">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><span class="light-type">Home</span> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><span class="light-type">Explore Events</span> <span class="sr-only">(current)</span></a>
+                <ul>
+                  <li><a href="#">Near Me</a></li>
+                  <li><a href="#">By Region/City</a></li>
+                  <li><a href="#">By Edition/Theme</a></li>
+                  <li><a href="#">By Map</a></li>
+                </ul>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><span class="light-type">More</span> <span class="sr-only">(current)</span></a>
+                <ul>
+                  <li><a href="#">Overview</a></li>
+                  <li><a href="#">Attendees</a></li>
+                  <li><a href="#">Organizers</a></li>
+                  <li><a href="#">Apply to Organize</a></li>
+                  <li><a href="#">Sponsors</a></li>
+                  <li><a href="#">Mentors</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- find an event near -->
+            <div class="nav-event">
+              <form>
+                <label class="" for="inlineFormInput">Find an event near</label>
+                <div class="input-group">
+                  <input type="search" class="form-control mb-2 mr-sm-2 mb-sm-0 " id="inlineFormInput" placeholder="Find an Event">
+                  <div class="input-group-addon">
+                    <button class="btn my-2 my-sm-0" type="submit">Search</button>
+                  </div>
                 </div>
-              </div>
-            </form>
-          </div><!-- find an event near -->
-        </div> <!-- navbar-collapse -->
-
+              </form>
+            </div><!-- find an event near -->
+          </div> <!-- navbar-collapse -->
+        </div>
       </div>
-
-    </div>
-
-
     </nav>
-    <div class="container">
-
+    <div class=" header light-type">
+      <h1 class="display-3">Learn, Network, Startup</h1>
+      <p>In just 54 hours Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <form class="event-search-a d-none d-lg-block">
+        <div class="row">
+          <div class="col-4">
+            <label class="" for="inlineFormInput">Find an event near:</label>
+          </div>
+          <div class="col-4">
+            <input type="search" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="United States">
+          </div>
+          <div class="col-2">
+            <button class="btn my-2 my-sm-0" type="submit">Go!</button>
+          </div>
+        </div>
+      </form>
     </div>
-
+    <form class="event-search-b d-lg-none ">
+      <h5>Find an event near</h5>
+      <label class="inline sr-only" for="inlineFormInput">Find an event near</label>
+      <div class="row">
+        <div class="col-8">
+          <input type="search" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="United States">
+        </div>
+        <div class="col-4">
+          <button class="btn my-2 my-sm-0" type="submit">Go!</button>
+        </div>
+        <h6>Or use my current location</h6>
+      </div>
+    </form>
+    <div class="container">
+    </div>
   </body>
 </html>

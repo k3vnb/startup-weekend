@@ -4,38 +4,93 @@ body {
 
 /* For testing only */
 #navbarSupportedContent {
-  background-color: #0db14b;
-  padding: 0 0 5% 5%; }
+  background-color: #0db14b; }
+
+#navbarSupportedContent ul {
+  padding: 1% 0 1% 5%; }
 
 .light-type {
   color: #fff;
   font-weight: bold; }
 
-li {
+.navbar li {
   list-style: none; }
 
-li a {
+.navbar li a {
   color: #262626; }
 
 .navbar {
   padding: 0; }
 
 .nav-event {
-  background-color: #33b069; }
+  background-image: url(../img/diglet.png);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #33b069;
+  z-index: 1;
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 5%; }
 
-form {
+.nav-event form {
   width: 85%;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: 15vh; }
+  margin-right: auto; }
 
-#inlineFormInput {
+.nav-event #inlineFormInput {
   border-radius: 20px;
-  border: 2px solid white;
-  background-color: #0db14b;
+  background-color: #33b069;
   color: white; }
 
 #inlineFormInput::placeholder {
   color: white; }
+
+.header {
+  background: url("../img/group.png");
+  padding: 5%;
+  text-align: center; }
+
+.display-3 {
+  font-size: 4.5em;
+  font-weight: bold; }
+
+.event-search-a {
+  background-color: #0db14b;
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 5%;
+  font-size: 1.3em;
+  font-weight: bold; }
+
+.event-search-b {
+  color: white;
+  background-color: #0db14b;
+  width: 100%;
+  padding: 11% 4%; }
+
+h5, h6 {
+  text-align: center;
+  margin: 5px auto;
+  padding: 0; }
+
+#inlineFormInput {
+  color: white;
+  background-color: #0db14b;
+  border: 3px solid white;
+  margin-left: 3vw; }
+
+.event-search-b button {
+  margin-left: 8%; }
+
+button {
+  background-color: white;
+  color: #0db14b;
+  height: 3rem;
+  width: 6rem;
+  font-weight: bold; }
+  button:hover {
+    background-color: #33b069;
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
