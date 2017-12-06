@@ -1,13 +1,15 @@
-body {
-  box-sizing: border-box;
-  width: 100vw; }
-
-/* For testing only */
 #navbarSupportedContent {
   background-color: #0db14b; }
 
 #navbarSupportedContent ul {
   padding: 1% 0 1% 5%; }
+
+.navbar-brand img {
+  width: 100%; }
+
+.navbar-toggler {
+  float: right;
+  margin-right: 15px; }
 
 .light-type {
   color: #fff;
@@ -93,14 +95,6 @@ button {
     background-color: #33b069;
     color: white; }
 
-.container {
-  background-color: #f4f4f4;
-  width: 100%;
-  padding: 10% 0 0 10%; }
-
-.content {
-  padding-right: 10%; }
-
 .cards:first-child {
   margin-top: 10vh; }
 
@@ -130,6 +124,18 @@ button {
 .icon-card-div img {
   width: 100%;
   padding: 12%; }
+
+body {
+  box-sizing: border-box;
+  width: 100vw; }
+
+.container {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 10% 0 0 10%; }
+
+.content {
+  padding-right: 10%; }
 
 @media screen and (min-width: 1001px) {
   .logo-card {

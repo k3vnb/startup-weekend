@@ -1,0 +1,45 @@
+@import "../abstracts/variables";
+
+
+.cards:first-child{
+  margin-top: 10vh;
+}
+
+.card {
+  margin-right: .5%;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.logo-card{
+  min-width: 20vw;
+  margin-top: 5vh;
+  text-align: center;
+  padding: 12% 8%;
+  position: relative;
+  float: left;
+
+  // @media #{$medium}{
+  //   .logo-card {
+  //     padding: 10% 2% 3% 2%;
+  //   }
+  // }
+  // @media #{$large}{
+  //   padding: 5% 2% 3% 2%;
+  //   background-color: $light-green;
+  // }
+}
+
+.icon-card-div {
+  width: 70px;
+  height: 70px;
+  background-color: $main-green;
+  border-radius: 50%;
+  position: absolute;
+  top:-2vh;
+  left: 42.5%;
+}
+.icon-card-div img{
+  width: 100%;
+  padding: 12%;
+}

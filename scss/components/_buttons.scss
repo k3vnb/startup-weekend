@@ -1,0 +1,14 @@
+.event-search-b button {
+  margin-left: 8%;
+}
+button{
+  background-color: white;
+  color: $main-green;
+  height: 3rem;
+  width: 6rem;
+  font-weight: bold;
+  &:hover {
+    background-color: $light-green;
+    color: white;
+  }
+}

@@ -1,111 +1,14 @@
-body {
-  box-sizing: border-box;
-  width: 100vw;
-}
-/* For testing only */
-*:not(body):not(html) {
-  // border:1px dashed #000;
-}
-
-//abstracts
-@import "abstracts/variables";
 
 
-//navigation
-#navbarSupportedContent{
-  background-color: $main-green;
-}
-#navbarSupportedContent ul {
-  padding: 1% 0 1% 5%;
-}
-.light-type{
-  color: #fff;
-  font-weight: bold;
-}
-.navbar li {
-  list-style: none;
-}
-.navbar li a {
-  color: $black;
-}
-.navbar {
-  padding: 0;
-}
-.nav-event {
-  background-image: url(../img/diglet.png);
-  object-fit: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: $light-green;
-  z-index: 1;
-  width: 100%;
-  padding-top: 15vh;
-  padding-bottom: 5%;
-}
-.nav-event form {
-  width:85%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.nav-event #inlineFormInput{
-  border-radius: 20px;
-  background-color: $light-green;
-  color:white;
-}
- #inlineFormInput::placeholder{
-  color:white;
-}
-//LEARN, NETWORK, STARTUP
-.header {
-  background: url("../img/group.png");
-  padding: 5%;
-  text-align: center;
-}
-.display-3 {
-  font-size: 4.5em;
-  font-weight: bold;
-}
+//import modules
 
-.event-search-a {
-  background-color: $main-green;
-  padding: 3%;
-  border-radius: 20px;
-  margin-top: 5%;
-  font-size: 1.3em;
-  font-weight: bold;
-}
-.event-search-b {
-  color: white;
-  background-color: $main-green;
-  width: 100%;
-  padding: 11% 4%;
-}
+@import"abstracts/module";
+@import"layout/module";
+@import"components/module";
+@import"base/module";
 
-h5, h6 {
-    text-align: center;
-    margin: 5px auto;
-    padding: 0;
-}
-#inlineFormInput {
-  color: white;
-  background-color: $main-green;
-  border: 3px solid white;
-  margin-left: 3vw;
-}
-.event-search-b button {
-  margin-left: 8%;
-}
-button{
-  background-color: white;
-  color: $main-green;
-  height: 3rem;
-  width: 6rem;
-  font-weight: bold;
-  &:hover {
-    background-color: $light-green;
-    color: white;
-  }
-}
+
+
 .container{
   background-color: $off-white;
   width: 100%;
@@ -114,39 +17,7 @@ button{
 .content{
   padding-right: 10%;
 }
-.cards:first-child{
-  margin-top: 10vh;
-}
-// .card:nth-child(odd){
-//   margin-right: 3%;
-// }
-.card {
-  margin-right: .5%;
-}
-.card:last-child {
-  margin-right: 0;
-}
-.logo-card{
-  min-width: 20vw;
-  margin-top: 5vh;
-  text-align: center;
-  padding: 12% 8%;
-  position: relative;
-  float: left;
-}
-.icon-card-div {
-  width: 70px;
-  height: 70px;
-  background-color: $main-green;
-  border-radius: 50%;
-  position: absolute;
-  top:-2vh;
-  left: 42.5%;
-}
-.icon-card-div img{
-  width: 100%;
-  padding: 12%;
-}
+
 
 @media screen and (min-width: 1001px) {
   .logo-card {

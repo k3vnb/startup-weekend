@@ -1,0 +1,52 @@
+#navbarSupportedContent{
+  background-color: $main-green;
+}
+#navbarSupportedContent ul {
+  padding: 1% 0 1% 5%;
+}
+
+.navbar-brand img{
+  width:100%;
+}
+
+.navbar-toggler{
+  float:right;
+  margin-right: 15px;
+}
+.light-type{
+  color: #fff;
+  font-weight: bold;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li a {
+  color: $black;
+}
+.navbar {
+  padding: 0;
+}
+.nav-event {
+  background-image: url(../img/diglet.png);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $light-green;
+  z-index: 1;
+  width: 100%;
+  padding-top: 15vh;
+  padding-bottom: 5%;
+}
+.nav-event form {
+  width:85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-event #inlineFormInput{
+  border-radius: 20px;
+  background-color: $light-green;
+  color:white;
+}
+ #inlineFormInput::placeholder{
+  color:white;
+}
